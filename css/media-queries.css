@@ -195,7 +195,11 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 68px/1.1em 'poppins-bold', sans-serif; }
+   header .banner-text h5 {
+      font: 18px/1.1em 'poppins-bold', sans-serif;
+      letter-spacing: -1px;
+   }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -214,12 +218,21 @@
    header .social li { margin: 0 10px; }
 
     /* scrolldown link */
-   header .scrolldown { display: none; }
+   header .scrolldown { display: block; }
 
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic {
+     display: block;
+     width: 114px;
+     height: 114px;
+     margin: 0 auto;
+   }
+   #about h2 {
+     padding-top: 20px;
+     text-align: center;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
