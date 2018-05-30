@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.png) no-repeat bottom right;
+   background: #161415 url(../images/header-background.jpg) no-repeat bottom right;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -55,8 +55,6 @@ header .banner {
    padding-bottom: 30px;
    padding-top: 30px;
    text-align: center;
-   background-color: rgba(0, 0, 0, .5);
-   border-radius: 10px 50px 30px;
 }
 
 header .banner-text { width: 100%; }
